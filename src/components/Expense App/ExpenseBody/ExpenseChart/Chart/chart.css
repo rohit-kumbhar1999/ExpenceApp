@@ -1,0 +1,45 @@
+.container1{
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+}
+
+.progressBar {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    /* height: 15rem; */
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.month {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chartOuter{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 620px) {
+    .progressBar{
+        height: 100px;
+    }
+
+    .month {
+        justify-content: space-evenly;
+    }
+    #monthdata{
+        font-size: 6px;
+    }
+}

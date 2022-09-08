@@ -1,0 +1,12 @@
+#filter{
+    display: flex;
+    justify-content: space-between;
+    margin:  0 50px;
+}
+
+#select{
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+}

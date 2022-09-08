@@ -1,0 +1,83 @@
+.row{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid orange;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    height: 100px;
+    box-shadow: 0 0 10px 5px #d0d0d0;
+}
+
+#expenseItem-price ,#expenseItem-add{
+    text-align: center;
+    border: 2px dotted aqua;
+    border-radius: 30px 0%;
+    width: 130px;
+    background-color: #F25657;
+    box-shadow: 5px 10px #888888;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+#expense-date{
+    text-align: center;
+    padding: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHkW5WoH8LhUQxHUzZ8eqYKnPpOzKNantOg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    width: 90px;
+}
+
+#expenseItem-title{
+    font-size: 30px;
+}
+
+button{
+    color: #FFFFFF;
+    border: none;
+    background-color: transparent;
+}
+
+.btnRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 626px) {
+    .row{
+        margin: 10px 0%;
+        padding: 5px;
+        box-shadow: 0 0 4px 4px #d0d0d0;
+    }
+
+
+    #expense-date{
+        padding: 3px;
+        color: #FFFFFF;
+        width: 70px;
+        height: 70px;
+    }
+    #expenseItem-price ,#expenseItem-add{
+        width: 60px;
+        height: 35px;
+        box-shadow: 5px 5px #888888;
+    }
+
+    #expenseItem-title{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 11px;
+    }
+
+    .btnRow{
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+}
